@@ -1,0 +1,15 @@
+db_file: "bot.db"
+
+bot_url: "https://t.me/pocket_service_bot"
+
+messages:
+  responses:
+    start: "Access denied, please, follow the link:\n%s"
+    already_authorized: "Oops, you are already authorized! Send me a link to add it to your pocket service"
+    saved_successfully: "Done! The link was saved successfully"
+    unknown_command: "I don't know this command..."
+  errors:
+    default: "Oops, sorry, error is unknown cause"
+    invalid_url: "Wow, sorry, this link is invalid!"
+    unauthorized: "Receipt of the access token was unsuccessful, perhaps, you're not authorized, please use command /start"
+    unable_to_save: "Saving failed! Please, try again later"
